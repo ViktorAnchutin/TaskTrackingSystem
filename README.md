@@ -14,7 +14,7 @@ Each task has following attributes:
 
 ![tasks window](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/TasksWindow.PNG?raw=true)
 
-All data is stored in SQLite database . User can select it's own .sqlite file (it should match the database scheme). By default file db.sqlite is selected.
+All data is stored in SQLite database . User can select it's own .sqlite file (it should match the database scheme). By default file "db.sqlite" is selected.
 
 ![select db](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/Open%20File.png?raw=true)
 
