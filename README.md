@@ -48,6 +48,7 @@ It is not possible to delete a user or a project connected to a task.
 ![deletionErro](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/userDeleteError.PNG?raw=true)
 
 Each task should have a unique topic.
+![add task window](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/addTask.PNG?raw=true)
 
 
 ### Structure of the application
