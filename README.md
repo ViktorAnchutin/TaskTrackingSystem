@@ -12,7 +12,7 @@ Each task has following attributes:
  - User
  - Description
 
-(%picture of the tasks window%)
+![tasks window](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/TasksWindow.PNG?raw=true)
 
 All data is stored in SQLite database . User can select it's own .sqlite file (it should match the database scheme).
 
@@ -41,16 +41,17 @@ CREATE TABLE projects (id integer primary key not null, name varchar(20) unique 
  ```
  
  Tasks can be filtered by project and by user.
- (%    %)
+ 
+ ![filter](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/filter.png?raw=true)
 
 It is not possible to delete a user or a project connected to a task.
-(% %)
+![deletionErro](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/userDeleteError.PNG?raw=true)
 
 Each task has to have a unique topic.
 
 
 ### Structure of the application
-(% %)
+![structure](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/appStructure.PNG?raw=true)
 
 
 
