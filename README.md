@@ -21,25 +21,25 @@ All data is stored in SQLite database . User can select it's own .sqlite file (i
 Tables scheme:
 - "task" table 
 ```
-create table tasks (id integer primary key,
-   topic varchar(20) unique not null,
-    type varchar(20) not null,
-    priority integer,
-    user_id integer,
-    project_id integer,
-    description varchar(150),
-    foreign key(user_id) references user(id),
-    foreign key(project_id) references projects(id)
+CREATE TABLE tasks (id INTEGER PRIMARY KEY,
+   topic VARCHAR(20) UNIQUE NOT NULL,
+    type VARCHAR(20) NOT NULL,
+    priority INTEGER,
+    user_id INTEGER,
+    project_id INTEGER,
+    description VARCHAR(150),
+    FOREIGN KEY(user_id) REFERENCES user(id),
+    FOREIGN KEY(project_id) REFERENCES projects(id)
     );
  ```
 - "user" table
 ```
-CREATE TABLE user (id integer primary key, name varchar(20) UNIQUE);
+CREATE TABLE user (id INTEGER PRIMARY KEY, name VARCHAR(20) UNIQUE NOT NULL);
 ```
 
 - "projects" table
 ```
-CREATE TABLE projects (id integer primary key not null, name varchar(20) unique not null);
+CREATE TABLE projects (id INTEGER PRIMARY KEY, name VARCHAR(20) UNIQUE NOT NULL);
  ```
  
  Tasks can be filtered by project and by user.
