@@ -19,7 +19,7 @@ All data is stored in SQLite database . User can select it's own .sqlite file (i
 ![select db](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/Open%20File.png?raw=true)
 
 Tables scheme:
-- "task" table 
+- "tasks" table 
 ```
 CREATE TABLE tasks (id INTEGER PRIMARY KEY,
    topic VARCHAR(20) UNIQUE NOT NULL,
