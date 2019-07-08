@@ -44,7 +44,7 @@ CREATE TABLE projects (id integer primary key not null, name varchar(20) unique 
  
  Tasks can be filtered by project and by user.
  
- ![filter](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/filter.png?raw=true)
+ ![filter](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/Filter.png?raw=true)
 
 It is not possible to delete a user or a project connected to a task.
 ![deletionErro](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/userDeleteError.PNG?raw=true)
