@@ -16,6 +16,8 @@ Each task has following attributes:
 
 All data is stored in SQLite database . User can select it's own .sqlite file (it should match the database scheme).
 
+![select db](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/Open%20File.png?raw=true)
+
 Tables scheme:
 - "task" table 
 ```
