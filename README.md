@@ -47,7 +47,7 @@ CREATE TABLE projects (id integer primary key not null, name varchar(20) unique 
 It is not possible to delete a user or a project connected to a task.
 ![deletionErro](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/userDeleteError.PNG?raw=true)
 
-Each task has to have a unique topic.
+Each task should have a unique topic.
 
 
 ### Structure of the application
