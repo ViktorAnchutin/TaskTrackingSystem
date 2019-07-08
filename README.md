@@ -56,7 +56,7 @@ Each user and project must have a unique name.
 ![unique name](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/Unique%20Name.png?raw=true)
 
 
-### Structure of the application
+### Application structure
 ![structure](https://github.com/ViktorAnchutin/TaskTrackingSystem/blob/master/Images/appStructure.PNG?raw=true)
 
 
